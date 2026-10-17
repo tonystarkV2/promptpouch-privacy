@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <title>PromptPouch — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1f;
+      --muted: #5a5a66;
+      --line: #e3e3ea;
+      --accent: #6E3DC0;
+      --warn-bg: #fff6e5;
+      --warn-line: #f0c36d;
+      --warn-fg: #6b4a00;
+      --code-bg: #f5f4f8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14131a;
+        --fg: #ececf2;
+        --muted: #a6a6b4;
+        --line: #2c2b36;
+        --accent: #b79cff;
+        --warn-bg: #2e2410;
+        --warn-line: #7a5c1c;
+        --warn-fg: #f0d18a;
+        --code-bg: #201f29;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 0 16px 64px;
+    }
+    main { max-width: 720px; margin: 0 auto; padding-top: 32px; }
+    h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 4px; color: var(--fg); }
+    h2 {
+      font-size: 1.15rem;
+      margin: 2.2em 0 0.5em;
+      padding-top: 0.4em;
+      border-top: 1px solid var(--line);
+      color: var(--fg);
+    }
+    h3 { font-size: 1rem; margin: 1.4em 0 0.3em; }
+    p, li { color: var(--fg); }
+    .lede { color: var(--muted); margin-top: 0; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 24px; }
+    a { color: var(--accent); }
+    ul { padding-left: 1.25em; }
+    li { margin: 0.35em 0; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
+    code {
+      background: var(--code-bg);
+      padding: 0.1em 0.4em;
+      border-radius: 4px;
+      font-size: 0.9em;
+      word-break: break-word;
+    }
+    .callout {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-line);
+      color: var(--warn-fg);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    .callout strong { color: inherit; }
+    .placeholder {
+      display: inline-block;
+      background: var(--code-bg);
+      border: 1px dashed var(--warn-line);
+      border-radius: 4px;
+      padding: 0.1em 0.45em;
+      font-weight: 600;
+    }
+    footer { color: var(--muted); font-size: 0.85rem; margin-top: 2.5em; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>PromptPouch Privacy Policy</h1>
+  <p class="lede">This policy explains what data the PromptPouch Android app handles, where it is stored, and what choices you have.</p>
+  <p class="updated">Last updated: 17 October 2026 · Applies to PromptPouch (Android), version 1.0.0</p>
+
+  <p>
+    PromptPouch is an offline-first workspace for building reusable prompts. It is designed so that
+    your content stays on your device. The app has <strong>no user accounts</strong>, performs
+    <strong>no analytics or tracking</strong>, and does <strong>not send your data to us or to any
+    server</strong>.
+  </p>
+
+  <h2>1. Who we are</h2>
+  <p>
+    PromptPouch is developed and published by the developer of this app. The app is listed on Google
+    Play under the package name <code>com.morty01999.promptvault</code>.
+  </p>
+  <p>
+    <strong>Developer privacy contact:</strong>
+    <a href="mailto:rickch47@proton.me">rickch47@proton.me</a>
+  </p>
+  <h2>2. Data the app stores (on your device only)</h2>
+  <p>
+    All content you create in PromptPouch is stored locally in the app's private database
+    (<code>promptvault.db</code>, SQLite) in the app's sandboxed storage on your device. This can
+    include:
+  </p>
+  <ul>
+    <li>Prompts and prompt versions you write.</li>
+    <li>Reusable context entries (facts, constraints, brand voice, and similar).</li>
+    <li>Memories (durable notes you choose to keep across prompts).</li>
+    <li>Projects and organizational tags.</li>
+    <li>Run history and assembled prompt outputs, and prompt packages.</li>
+    <li>App settings, including any instruction templates you customize.</li>
+  </ul>
+  <p>
+    This content is created by you. The app does not collect this data on our behalf, and no copy of
+    it is transmitted to the developer.
+  </p>
+
+  <h2>3. Data the app does NOT collect</h2>
+  <ul>
+    <li>No account registration, login, or user profile.</li>
+    <li>No analytics, telemetry, advertising, or crash-reporting SDKs.</li>
+    <li>No collection of personal identifiers, location, contacts, or device identifiers by the app.</li>
+    <li>No cloud synchronization or remote storage of your content.</li>
+  </ul>
+
+  <h2>4. Network use and third-party AI services</h2>
+  <p>
+    The app itself makes <strong>no network requests</strong> and does <strong>not call any AI
+    provider's API</strong>. Your prompt text is never sent anywhere by PromptPouch.
+  </p>
+  <p>When you choose to use a prompt with an AI service, the app:</p>
+  <ol>
+    <li>Copies the assembled prompt text to your device clipboard, and</li>
+    <li>Opens the third-party service you selected (for example ChatGPT, Gemini, Claude, or
+      Perplexity), either in its installed app or in your web browser.</li>
+  </ol>
+  <p>
+    You then paste the text yourself. PromptPouch does not transmit the prompt or attach it to any
+    URL. Once you paste your content into a third-party AI service, that service's own privacy policy
+    and terms apply, and the developer of PromptPouch has no control over and no visibility into how
+    that service handles your content. Review those policies before sharing sensitive information.
+  </p>
+
+  <h2>5. Clipboard, sharing, and import/export</h2>
+  <ul>
+    <li><strong>Clipboard:</strong> used only when you tap a copy action. The app writes the text you
+      asked to copy. It does not read your clipboard.</li>
+    <li><strong>Backup &amp; export:</strong> when you export a backup, the app creates a JSON file in
+      its own cache directory and hands it to the Android share sheet, so you can save or send it
+      wherever you choose. This only happens when you initiate it.</li>
+    <li><strong>Import:</strong> when you import a backup, the app reads only the file you pick with
+      the system file picker, validates it, and writes it into the local database.</li>
+  </ul>
+  <p>Because export produces a plain file with your content, store and share backups carefully.</p>
+
+  <h2>6. Device permissions</h2>
+  <ul>
+    <li><strong>Internet</strong> — declared by the app framework. The app performs no network
+      requests of its own.</li>
+    <li><strong>Vibrate</strong> — used for optional haptic feedback.</li>
+    <li><strong>Read/write external storage</strong> — requested only on Android 12 and below, to
+      support saving/reading backup files.</li>
+    <li><strong>Display over other apps (SYSTEM_ALERT_WINDOW)</strong> — not requested. This
+      permission is explicitly removed from the app manifest.</li>
+  </ul>
+
+  <h2>7. Data retention and deletion</h2>
+  <ul>
+    <li>Your content remains on your device until you delete it within the app or remove the app.</li>
+    <li>Deleting individual items removes them from the local database.</li>
+    <li>Uninstalling PromptPouch removes its app-private data from the device.</li>
+    <li>Because the app keeps no server-side copy, there is nothing for the developer to delete on
+      your behalf.</li>
+  </ul>
+  <p>
+    The app allows Android's system backup (<code>allowBackup</code> is enabled). Depending on your
+    device settings, Android may include app data in a device backup associated with your Google
+    account. You can control device backup in your Android system settings.
+  </p>
+
+  <h2>8. Security</h2>
+  <p>
+    Your data is kept in the app's private storage area, which the operating system isolates from
+    other apps. The app does not currently apply additional encryption to the local database beyond
+    the protections provided by the operating system.
+  </p>
+
+  <h2>9. Children's privacy</h2>
+  <p>
+    PromptPouch is a productivity tool for people who build and use prompts with large language model
+    (LLM) apps. It is not directed to children, and it is not designed for or marketed to children.
+    The app has no accounts and no network features, and it does not knowingly collect personal data
+    from anyone, including children.
+  </p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>
+    If the app's data practices change (for example, if any online feature, account, analytics, or
+    purchase is added), this policy will be updated before that change takes effect, and the "Last
+    updated" date above will be revised.
+  </p>
+
+  <h2>11. Contact</h2>
+  <p>
+    For privacy questions, contact:
+    <a href="mailto:rickch47@proton.me">rickch47@proton.me</a>.
+  </p>
+
+  <hr />
+  <footer>
+    PromptPouch Privacy Policy · Last updated 17 October 2026. This policy describes PromptPouch for
+    Android version 1.0.0 as currently built.
+  </footer>
+</main>
+</body>
+</html>
